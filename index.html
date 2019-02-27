@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Task</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	  <style>
+	  	h3{
+	  		color:#fff;
+	  		background-color:green;
+	  		padding:10px;
+	  		text-align:center;
+	  	}
+	  	table{
+	  		width:40%;
+	  		margin-left:auto;
+	  		margin-right:auto;
+	  	}
+	  	tr{
+	  		border-left:2px solid #000;
+	  		border-right:2px solid #000;
+	  	}
+	  	tr:first-child{
+	  		border-top:2px solid #000;
+	  	}
+	  	tr:nth-child(3n){
+	  		border-bottom:2px solid #000;
+	  	}
+	  	td:nth-child(3n){
+	  		border-right:2px solid #000;
+	  	}
+	  	td{
+	  		border:1px solid #000;
+	  	}
+	  	input{
+	  		width:100%;
+	  		border:none;
+	  		text-align:center;
+	  	}
+	  	.btn{
+	  		margin-top:10px;
+	  	}
+	  	.result{
+	  		margin-top:10px;
+	  		padding:10px;
+	  		text-align:center;
+	  		color:#fff;
+	  		width:40%;
+	  		margin-left:auto;
+	  		margin-right:auto;
+	  	}
+	  </style>
+	</head>
+	<body>
+	<section>
+		<div class="container">	
+			<h3>Hello we have a game !!</h3>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<table>
+				<tr>
+					<td class="a"><input id="a0" type="number" /></td>
+					<td class="a"><input id="a1" type="number" /></td>
+					<td class="a"><input id="a2" type="number" /></td>
+
+					<td class="a"><input id="a3" type="number" /></td>
+					<td class="a"><input id="a4" type="number" /></td>
+					<td class="a"><input id="a5" type="number" /></td>
+
+					<td class="a"><input id="a6" type="number" /></td>
+					<td class="a"><input id="a7" type="number" value="6" disabled/></td>
+					<td class="a"><input id="a8" type="number" /></td>
+				</tr>
+
+				<tr>
+					<td class="b"><input id="b0" type="number" /></td>
+					<td class="b"><input id="b1" type="number" /></td>
+					<td class="b"><input id="b2" type="number" value="7" disabled/></td>
+
+					<td class="b"><input id="b3" type="number" value="3" disabled/></td>
+					<td class="b"><input id="b4" type="number" /></td>
+					<td class="b"><input id="b5" type="number" /></td>
+
+					<td class="b"><input id="b6" type="number" value="9" disabled/></td>
+					<td class="b"><input id="b7" type="number" /></td>
+					<td class="b"><input id="b8" type="number" /></td>
+				</tr>
+
+				<tr>
+					<td class="c"><input id="c0" type="number" /></td>
+					<td class="c"><input id="c1" type="number" /></td>
+					<td class="c"><input id="c2" type="number" value="8" disabled/></td>
+
+					<td class="c"><input id="c3" type="number" value="9" disabled/></td>
+					<td class="c"><input id="c4" type="number" /></td>
+					<td class="c"><input id="c5" type="number" /></td>
+
+					<td class="c"><input id="c6" type="number" /></td>
+					<td class="c"><input id="c7" type="number" /></td>
+					<td class="c"><input id="c8" type="number" /></td>
+				</tr>
+
+				<tr>
+					<td class="d"><input id="d0" type="number" /></td>
+					<td class="d"><input id="d1" type="number" value="7" disabled/></td>
+					<td class="d"><input id="d2" type="number" value="1" disabled/></td>
+
+					<td class="d"><input id="d3" type="number" /></td>
+					<td class="d"><input id="d4" type="number" /></td>
+					<td class="d"><input id="d5" type="number" /></td>
+
+					<td class="d"><input id="d6" type="number" /></td>
+					<td class="d"><input id="d7" type="number" /></td>
+					<td class="d"><input id="d8" type="number" /></td>
+				</tr>
+
+				<tr>
+					<td class="e"><input id="e0" type="number" /></td>
+					<td class="e"><input id="e1" type="number" /></td>
+					<td class="e"><input id="e2" type="number" /></td>
+
+					<td class="e"><input id="e3" type="number" /></td>
+					<td class="e"><input id="e4" type="number" /></td>
+					<td class="e"><input id="e5" type="number" /></td>
+
+					<td class="e"><input id="e6" type="number" /></td>
+					<td class="e"><input id="e7" type="number" /></td>
+					<td class="e"><input id="e8" type="number" value="8" disabled/></td>
+				</tr>
+
+				<tr>
+					<td class="f"><input id="f0" type="number" value="8" disabled/></td>
+					<td class="f"><input id="f1" type="number" /></td>
+					<td class="f"><input id="f2" type="number" /></td>
+
+					<td class="f"><input id="f3" type="number" /></td>
+					<td class="f"><input id="f4" type="number" value="5" disabled/></td>
+					<td class="f"><input id="f5" type="number" /></td>
+
+					<td class="f"><input id="f6" type="number" value="6" disabled/></td>
+					<td class="f"><input id="f7" type="number" /></td>
+					<td class="f"><input id="f8" type="number" value="4" disabled/></td>
+				</tr>
+
+				<tr>
+					<td class="g"><input id="g0" type="number" /></td>
+					<td class="g"><input id="g1" type="number" value="1" disabled/></td>
+					<td class="g"><input id="g2" type="number" /></td>
+
+					<td class="g"><input id="g3" type="number" value="2" disabled/></td>
+					<td class="g"><input id="g4" type="number" /></td>
+					<td class="g"><input id="g5" type="number" /></td>
+
+					<td class="g"><input id="g6" type="number" /></td>
+					<td class="g"><input id="g7" type="number" value="9" disabled/></td>
+					<td class="g"><input id="g8" type="number" /></td>
+				</tr>
+
+				<tr>
+					<td class="h"><input id="h0" type="number" value="2" disabled/></td>
+					<td class="h"><input id="h1" type="number" /></td>
+					<td class="h"><input id="h2" type="number" /></td>
+
+					<td class="h"><input id="h3" type="number" /></td>
+					<td class="h"><input id="h4" type="number" /></td>
+					<td class="h"><input id="h5" type="number" value="4" disabled/></td>
+
+					<td class="h"><input id="h6" type="number" /></td>
+					<td class="h"><input id="h7" type="number" /></td>
+					<td class="h"><input id="h8" type="number" /></td>
+				</tr>
+
+				<tr>
+					<td class="i"><input id="i0" type="number" /></td>
+					<td class="i"><input id="i1" type="number" value="6" disabled/></td>
+					<td class="i"><input id="i2" type="number" value="9" disabled/></td>
+
+					<td class="i"><input id="i3" type="number" /></td>
+					<td class="i"><input id="i4" type="number" /></td>
+					<td class="i"><input id="i5" type="number" /></td>
+
+					<td class="i"><input id="i6" type="number" /></td>
+					<td class="i"><input id="i7" type="number" value="7" disabled/></td>
+					<td class="i"><input id="i8" type="number" /></td>
+				</tr>
+			</table>
+			<div class="text-center">
+				<button class="btn btn-primary">Click</button>
+				<h4 class="result"></h4>
+			</div>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script>
+		var arr = [];
+		alpha = ['a','b','c','d','e','f','g','h','i'];
+		$(document).ready(function(){
+			$(".btn").click(function(){
+				for(var i=0; i<9; i++){
+					var arr1 = [];
+					for(var j=0; j<9; j++){
+						var val = $("tr #"+alpha[i]+j).val();
+						// val.slice(0,1);
+						arr1.push(val);
+					}
+					arr.push(arr1);
+				}
+				solve();
+			});
+			function solve(){
+				var flag = 1;
+				for(var i =0; i<9; i++){
+					var row = 0, col = 0;
+					for(var j=0; j<9; j++){
+						row = row + Number(arr[i][j]);
+						col = col + Number(arr[j][i]);
+					}
+					if(row!= 45 || col!=45){
+						flag = 0;
+					} else {
+						continue;
+					}
+				}
+				arr = [];
+				if(flag == 1){
+					$(".result").text("Success").css("background-color","green");
+				} else {
+					$(".result").text("Fail").css("background-color","red");
+				}
+			}
+		})
+
+	</script>
+	</body>
+</html>
